@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def main():
-    model = ChatOpenAi(temperature=0)
+    model = ChatOpenAI(temperature=0)
 
     tools =[]
 
